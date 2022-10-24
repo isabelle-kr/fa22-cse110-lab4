@@ -1,4 +1,4 @@
-Part2
+Part 2
 1. “3” will be printed. We have looped through 0 to 2 and now are out of the bounds for the for loop to execute. However, since i is declared with the var keyword, it is not scoped to only the for loop, but can be seen anywhere in the function.
 2. “150” will be printed, since this is the discounted price of last item and is a var, which can be seen anywhere within the function.
 3. “150” will be printed again, since this is the final price after the discount of the last item and is a var, which can be seen anywhere within the function.
