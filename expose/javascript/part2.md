@@ -33,5 +33,7 @@ Part 2
     e. False, true is converted to 1  
     f. True, the boolean value of 2 is true, and then the operands are of the same type   
 15. == is an equality check, where variables of different types will just be converted to numbers to be compared. However, === is a strict equality check, which means that it accounts for type too. === will first check if the two operands are of the same type, and if not, it will return false. If they are of the same type, it then checks whether they are equal or not.
+16. See part2-question16.js
 17. The result will be [2,4,6] since the modifyArray function is passed doSomething as a parameter. The modifyArray function then calls doSomething on each element of the array, and doSomething multiplies each element by 2.
+18. See part2-question18.js
 19. The code prints 1, then 4, then 3, and finally 2. This is because 1 is printed first with no delay, and then 4 is printed after also with no delay. Then, 3 prints next since it is in a setTimeout function (even though the delay is set to 0), and 4 is printed last because it has a longer delay of an entire second.
