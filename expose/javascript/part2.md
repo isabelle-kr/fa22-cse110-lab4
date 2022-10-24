@@ -10,13 +10,13 @@ Part 2
 9. Same as question 5: the code causes an error. Since i is declared with the let keyword inside the heading of the for loop, it cannot be seen outside of the for loop.
 10. “3” will be printed. This is because this is the length of the array passed as a parameter in the discountPrices function call.
 11. The function will return [50, 100, 150]. This is because, while declaring the discounted array as a constant means we cannot reassign it, we are allowed to add to the array using the push method. Therefore, we can successfully push the discounted prices to the array.
-12.   
+12.     
     a. student.name  
     b. student[‘Grad Year’]  
     c. student.greeting()  
     d. student[‘Favorite Teacher’].name  
     e. student.courseLoad[0]  
-13.  
+13.    
     a. 32, since the left operand being a string means the + operator will convert the right operand to a string and perform string concatenation  
     b. 1, since the - operator converts the string ‘3’ to a number  
     c. 3, since null is converted to 0  
@@ -25,7 +25,7 @@ Part 2
     f. 0, since both operands are converted to 0 in computations  
     g. 3undefined, since undefined is converted to the string ‘undefined’  
     h. NaN, since undefined is converted to NaN  
-14.  
+14.    
     a. True, since 2 is converted to a number  
     b. False, since they are compared as strings ‘2’ and ’12’, and the first character of 12 being 1 means 12 comes first in lexicographical order  
     c. True, ‘2’ is converted to 2  
